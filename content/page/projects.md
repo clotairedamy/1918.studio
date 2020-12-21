@@ -17,4 +17,4 @@ date: 2018-07-07T03:02:10-07:00
 #### sigma 1
 
 * Animation module to extend lottie SVG. 
-* Persistent animation module for interactivity and on-scroll syncronization.
+* Landing Page animation module.
