@@ -1,20 +1,14 @@
 <template>
-  <nav ref="navBar" :data-nav="`${pagetitle}`" id="navbar">
-    <div class="r xs-border-bottom">
+  <nav ref="navBar " :data-nav="`${pagetitle}`" id="navbar" class="text-white">
+    <div class="r xs-border-bottom bg-gray-900 ">
       <div class="c-4 xs-text-left xs-p2 sm-border-right">
         <div class="item">
-          <nuxt-link class="sitename" to="/" exact>{{$store.state.info.sitename}}</nuxt-link>
+          <nuxt-link class="sitename text-white" to="/" exact>{{$store.state.info.sitename}}</nuxt-link>
         </div>
       </div>
 
-      <div
-        class="c-4 xs-border-top xs-border-bottom sm-border-bottom-none sm-border-top-none sm-border-left-none sm-border-right xs-p2"
-      >
-        <div class="item xs-flex">
-          <lazy-bael-search />
-        </div>
-      </div>
-      <div v-if="pagetitle" style="z-index:55;" class="c-12 sm-border-top xs-p2 xs-text-6 titlebar">
+   
+      <div v-if="pagetitle" style="z-index:55;" class="c-12 sm-border-top xs-p2 xs-text-6 text-white titlebar">
         <div class="item">
           <nuxt-link to="/" exact>Home</nuxt-link>
           <span v-if="path">
@@ -49,6 +43,9 @@ export default {
 };
 </script>
 <style>
+.track {
+  font-family: 'Track';
+}
 #navbar {
   z-index: 999;
 }

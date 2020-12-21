@@ -1,5 +1,5 @@
 <template>
-  <div :class="['xs-text-6 md-text-5 bael-grid', {paginated: hasPagination}]">
+  <div :class="['xs-text-6 md-text-5 bael-grid bg-gray-50 track', {paginated: hasPagination}]">
     <div v-if="posts.length" class="r full-height browse">
       <div
         v-intersect
@@ -10,7 +10,7 @@
       >
         <div class="item xs-block xs-full-height xs-flex">
           <nuxt-link
-            class="xs-text-center xs-flex xs-full-height xs-flex-align-center xs-flex-justify-center xs-text-center"
+            class="xs-text-center xs-flex xs-full-height xs-flex-align-center xs-flex-justify-center xs-text-center text-gray-900 uppercase"
             :to="p.path"
           >{{p.title}}</nuxt-link>
         </div>

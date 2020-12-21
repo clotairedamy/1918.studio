@@ -85,7 +85,7 @@ module.exports = {
   /*
   ** Build configuration
   */
-
+  buildModules: ['@nuxtjs/tailwindcss'],
   build: {
     extractCSS: false,
     html: {

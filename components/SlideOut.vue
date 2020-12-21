@@ -14,12 +14,12 @@
         </div>
       </div>
     </div>
-    <ul class="bael-slideout-menu list-unstyled">
+    <ul class="bael-slideout-menu list-unstyled bg-gray-900">
       <li class="bael-slideout-menu-item menu-logo">
         <nuxt-link
           v-if="info.siteicon  && info.showmenu"
           style="color:#000"
-          class="text-black black-font site--name"
+          class="text-white  black-font site--name"
           to="/"
           exact
         >
@@ -35,7 +35,7 @@
         <nuxt-link to="/" exact>Home</nuxt-link>
       </li>
       <li v-if="categories.length" class="bael-slideout-menu-item--small">
-        <nuxt-link to="/categories" exact>Categories</nuxt-link>
+        <nuxt-link to="/categories" exact>Services</nuxt-link>
       </li>
       <li v-for="(p,i) in pages" :key="`pg-${i}`" class="bael-slideout-menu-item--small">
         <nuxt-link :to="p.path">{{p.title}}</nuxt-link>
@@ -140,7 +140,7 @@ export default {
 .hamburger-inner::after {
   width: 40px;
   height: 4px;
-  background-color: #000;
+  background-color: #fff;
   border-radius: 4px;
   position: absolute;
   transition-property: transform;

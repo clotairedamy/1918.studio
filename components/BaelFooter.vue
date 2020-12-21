@@ -1,5 +1,5 @@
 <template>
-  <footer class="fill-gray-lighter xs-text-6 md-text-5">
+  <footer class="bg-gray-900 xs-text-6 md-text-5">
     <div class="r no-gap">
       <div v-if="pagination.active" class="c-12 xs-text-left xs-p2">
         <lazy-bael-pagination :pagination="pagination" />
@@ -9,44 +9,16 @@
         :class="signupAboutSize"
       >
         <div class="item">
-          <div v-if="siteDescription" class="footer__heading xs-mb2">About</div>
+          <div v-if="siteDescription" class="footer__heading xs-mb2 text-white">About</div>
           <p v-if="siteDescription">{{siteDescription}}</p>
         </div>
       </div>
-      <div
-        v-if="signupBoolean"
-        class="c-25 xs-text-left xs-p2 xs-border xs-border-right-none xs-border-bottom-none"
-      >
-        <lazy-send-grid />
-      </div>
-      <div
-        class="xs-text-left xs-p2 xs-border xs-border-right-none xs-border-bottom-none"
-        :class="signupAboutSize"
-      >
-        <div class="item">
-          <div v-if="connectData" class="footer__heading xs-mb2">Connect</div>
-          <ul v-if="connectData" class="list-unstyled">
-            <li v-for="(c,i) in connectData" :key="i">
-              <a :href="c.url">{{c.name}}</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div
-        class="xs-text-left xs-p2 xs-border xs-border-right-none xs-border-bottom-none"
-        :class="signupAboutSize"
-      >
-        <div class="item">
-          <div class="footer__heading xs-mb2">Deploy</div>
-
-       
-        </div>
-      </div>
+     
+    
       <div class="c-12 xs-text-left xs-p2 xs-border xs-border-right-none xs-border-bottom-none">
-        <div class="item xs-text-6">
-          <a href="https://github.com/jake-101/bael-template">clotaire</a>
-          <span class="small-txt" v-if="version">{{version}}</span>
-          <a href="https://jake101.com">1918</a>
+        <div class="item xs-text-6 text-white">
+       &copy;2020
+       
         </div>
       </div>
     </div>
