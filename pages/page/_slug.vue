@@ -50,7 +50,7 @@ export default {
           name: "twitter:title",
           content: this.page.title,
         },
-        // { hid: 'twitter:description', name: 'twitter:description', content: this.page.description }
+       { hid: 'twitter:description', name: 'twitter:description', content: this.page.description }
       ],
     };
   },
