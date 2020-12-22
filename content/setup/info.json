@@ -1,8 +1,9 @@
 {
   "sitename": "1918",
   "sitedescription": "Design Studio",
-  "siteicon": "/images/uploads/icon.png",
+  "siteicon": "/images/uploads/artboard-1xhdpi.png",
   "showmenu": true,
   "emailsignup": true,
-  "altlayout": false
+  "altlayout": false,
+  "linkcolor": "#000000"
 }
