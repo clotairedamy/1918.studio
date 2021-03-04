@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/ftwesk
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://1918.studio
+  * I am ftwesk (https://keybase.io/ftwesk) on keybase.
+  * I have a public key ASAjBmNgMBGIF5pA1U87AG8_7WfKh2RyB0B1z6BWraVyEQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012023066360301188179a40d54f3b006f3fed67ca876472074075cfa056ada572110a",
+      "host": "keybase.io",
+      "kid": "012023066360301188179a40d54f3b006f3fed67ca876472074075cfa056ada572110a",
+      "uid": "5961448806fe453fed80047bfd9a3f19",
+      "username": "ftwesk"
+    },
+    "merkle_root": {
+      "ctime": 1614879493,
+      "hash": "50ebb08e5e08150997c9606ada664e24fbc32d4f170f9a212a3448bed68d84f055608cefe255349270710ba98fc973873b1351150d1d5bc1859d6c680c082601",
+      "hash_meta": "13b17379f1fb73ee57a6041ea0f8d16c54714e06ca2d4eebe50696f2a076b50e",
+      "seqno": 19291065
+    },
+    "service": {
+      "entropy": "RRnyaqp/oSd7NonvyC51aX3Y",
+      "hostname": "1918.studio",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.0"
+  },
+  "ctime": 1614879506,
+  "expire_in": 504576000,
+  "prev": "c8bd69711b5a1d1ed24f1ae4ecd98d6023123820fdfc5b9dddc24d130339b88f",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgIwZjYDARiBeaQNVPOwBvP+1nyodkcgdAdc+gVq2lchEKp3BheWxvYWTESpcCBcQgyL1pcRtaHR7STxrk7NmNYCMSOCD9/Fud3cJNEwM5uI/EIJSsYjwZ7FpmrhwmRO84+iPFUiebGc9HM5n6rkyCKN9wAgHCo3NpZ8RAATBIA/ZZbEx27BgZWPvLolh/ak/yaKsBMorkSE2C65OOHLj3vyehPenwytegGPSyEVpW2j7TbhOOIIxL5eNVC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOdhqDNeIDGYbsNMxiCm6X4MeO0aikbJcBxvMC36yKCSo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ftwesk
+
+==================================================================
